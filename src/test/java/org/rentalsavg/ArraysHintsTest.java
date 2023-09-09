@@ -76,4 +76,29 @@ class ArraysHintsTest {
 				() -> assertArrayEquals(new int[]{9,0,0}, arraysHints.plusOne(numbers3))
 		);
 	}
+
+	@Test
+	@DisplayName("Move zeroes from an array to the its end without making a copy of array")
+	void checkMoveZeroes() {
+		int[] numbers = new int[]{0, 12, 3, 0, 4};
+		int[] numbers2 = new int[]{0};
+		arraysHints.moveZeroes(numbers);
+		arraysHints.moveZeroes(numbers2);
+		assertAll(
+				() -> assertArrayEquals(new int[]{12, 3, 4, 0, 0}, numbers),
+				() -> assertArrayEquals(new int[]{0}, numbers2)
+		);
+	}
+
+	@Test
+	@DisplayName("it should be exactly 2 elements in array, the sum of which is equal to 'target'. It should return the indices of that elements")
+	void checkTwoSum() {
+		int[] res1 = arraysHints.twoSum(new int[]{2,3,4}, 6);
+		int[] res2 = arraysHints.twoSum(new int[]{2,7,11,15}, 9);
+
+		assertAll(
+				() -> assertArrayEquals(new int[]{2, 0}, res1),
+				() -> assertArrayEquals(new int[]{1, 0}, res2)
+		);
+	}
 }

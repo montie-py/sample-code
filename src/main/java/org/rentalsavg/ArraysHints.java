@@ -83,6 +83,22 @@ public class ArraysHints {
 		return result;
 	}
 
+	public void moveZeroes(int[] nums) {
+		int length = nums.length;
+		int index = 0;
+		for (int i = 0; i < length; ++i) {
+			if (nums[i] != 0) {
+				nums[index++] = nums[i];
+			}
+		}
+
+		if (index < length) {
+			for (int i = index; i < length; ++i) {
+				nums[i] = 0;
+			}
+		}
+	}
+
 	private int[] getIntersectionFromMap(int[] arr, Map<Integer, Integer> occurences) {
 		List<Integer> intersections = new ArrayList<>();
 		for (int elem : arr) {
@@ -122,5 +138,22 @@ public class ArraysHints {
 			start++;
 			end--;
 		}
+	}
+
+	public int[] twoSum(int[] ints, int target) {
+		Map<Integer, Integer> records = new HashMap<>();
+		int[] result = new int[2];
+
+		for (int i = 0; i < ints.length; ++i) {
+			if (records.containsKey(target-ints[i])) {
+				result[0] = i;
+				result[1] = records.get(target-ints[i]);
+				return result;
+			}
+
+			records.put(ints[i], i);
+		}
+
+		return result;
 	}
 }
