@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.rentalsavg.AppTest" time="0.027" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.rentalsavg.AppTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\vladimir.bodrug\projects\sample-code\target\test-classes;C:\Users\vladimir.bodrug\projects\sample-code\target\classes;C:\Users\vladimir.bodrug\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\vladimir.bodrug\projects\sample-code\target\test-classes;C:\Users\vladimir.bodrug\projects\sample-code\target\classes;C:\Users\vladimir.bodrug\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vladimir.bodrug\.m2\repository\com\rabbitmq\amqp-client\5.18.0\amqp-client-5.18.0.jar;C:\Users\vladimir.bodrug\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.6_10\bin"/>
-    <property name="sun.java.command" value="C:\Users\VLADIM~1.BOD\AppData\Local\Temp\surefire4959192485781134875\surefirebooter12586829349062383618.jar C:\Users\vladimir.bodrug\AppData\Local\Temp\surefire4959192485781134875 2023-08-30T17-41-34_106-jvmRun1 surefire8367798550842120167tmp surefire_01856684173386638783tmp"/>
+    <property name="sun.java.command" value="C:\Users\VLADIM~1.BOD\AppData\Local\Temp\surefire6602521612807706369\surefirebooter8568933592035628586.jar C:\Users\vladimir.bodrug\AppData\Local\Temp\surefire6602521612807706369 2023-09-16T09-34-44_564-jvmRun1 surefire14022533092250720667tmp surefire_016315658370362054116tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\vladimir.bodrug\projects\sample-code\target\test-classes;C:\Users\vladimir.bodrug\projects\sample-code\target\classes;C:\Users\vladimir.bodrug\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\vladimir.bodrug\projects\sample-code\target\test-classes;C:\Users\vladimir.bodrug\projects\sample-code\target\classes;C:\Users\vladimir.bodrug\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\vladimir.bodrug\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\vladimir.bodrug\.m2\repository\com\rabbitmq\amqp-client\5.18.0\amqp-client-5.18.0.jar;C:\Users\vladimir.bodrug\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\vladimir.bodrug"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\VLADIM~1.BOD\AppData\Local\Temp\surefire4959192485781134875\surefirebooter12586829349062383618.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\VLADIM~1.BOD\AppData\Local\Temp\surefire6602521612807706369\surefirebooter8568933592035628586.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+10-LTS"/>
@@ -44,19 +44,19 @@
     <property name="localRepository" value="C:\Users\vladimir.bodrug\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
     <property name="java.io.tmpdir" value="C:\Users\VLADIM~1.BOD\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2022.1.2"/>
+    <property name="idea.version" value="2023.2.2"/>
     <property name="java.version" value="17.0.6"/>
     <property name="user.dir" value="C:\Users\vladimir.bodrug\projects\sample-code"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.6_10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.19_7\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Amazon Corretto\jdk17.0.6_10\bin;C:\Users\vladimir.bodrug\Anaconda3\condabin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\xampp\php;C:\xampp\php-7.4.28;C:\xampp\mysql\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\Calibre2\;C:\Users\vladimir.bodrug\maven\apache-maven-3.8.6\bin;C:\Program Files\PostgreSQL\15\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Webdrivers;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\vladimir.bodrug\Documents\apache-ant-1.9.16\apache-ant-1.9.16\bin;C:\Users\vladimir.bodrug\Documents\apache-nutch-1.19-bin\apache-nutch-1.19\bin;C:\Users\vladimir.bodrug\AppData\Local\Microsoft\WindowsApps;C:\Users\vladimir.bodrug\AppData\Local\ComposerSetup\bin;C:\Users\vladimir.bodrug\AppData\Roaming\Composer\vendor\bin;C:\xampp\php;C:\xampp\mysql;C:\Program Files\liquibase;C:\Users\vladimir.bodrug\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vladimir.bodrug\go\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.4\bin;;C:\Users\vladimir.bodrug\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.6_10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Google\Chrome\Application;C:\Program Files\Amazon Corretto\jdk11.0.19_7\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Amazon Corretto\jdk17.0.6_10\bin;C:\Users\vladimir.bodrug\Anaconda3\condabin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\xampp\php;C:\xampp\php-7.4.28;C:\xampp\mysql\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\Calibre2\;C:\Users\vladimir.bodrug\maven\apache-maven-3.8.6\bin;C:\Program Files\PostgreSQL\15\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Webdrivers;C:\Program Files\CMake\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\vladimir.bodrug\Documents\apache-ant-1.9.16\apache-ant-1.9.16\bin;C:\Users\vladimir.bodrug\Documents\apache-nutch-1.19-bin\apache-nutch-1.19\bin;C:\Users\vladimir.bodrug\AppData\Local\Microsoft\WindowsApps;C:\Users\vladimir.bodrug\AppData\Local\ComposerSetup\bin;C:\Users\vladimir.bodrug\AppData\Roaming\Composer\vendor\bin;C:\xampp\php;C:\xampp\mysql;C:\Program Files\liquibase;C:\Users\vladimir.bodrug\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vladimir.bodrug\go\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.4\bin;;C:\Users\vladimir.bodrug\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
     <property name="java.vm.version" value="17.0.6+10-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="simpleTest" classname="org.rentalsavg.AppTest" time="0.019"/>
+  <testcase name="simpleTest" classname="org.rentalsavg.AppTest" time="0.016"/>
 </testsuite>

@@ -3,6 +3,7 @@ package org.rentalsavg;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
@@ -155,5 +156,38 @@ public class ArraysHints {
 		}
 
 		return result;
+	}
+
+	public boolean checkSudoku(char[][] board) {
+		HashSet<Character>[] rows = new HashSet[9];
+		HashSet<Character>[] cols = new HashSet[9];
+		HashSet<Character>[] blocks = new HashSet[9];
+
+		for (int i = 0; i < 9; ++i) {
+			rows[i] = new HashSet<>();
+			cols[i] = new HashSet<>();
+			blocks[i] = new HashSet<>();
+		}
+
+		for (int i = 0; i < 9; ++i) {
+			for (int j = 0; j < 9; ++j) {
+				if (board[i][j] == '.') {
+					continue;
+				}
+				if (!rows[i].add(board[i][j])) {
+					return false;
+				}
+
+				if (!cols[j].add(board[i][j])) {
+					return false;
+				}
+
+				int blockIndex = (i / 3) * 3 + (j / 3);
+				if (!blocks[blockIndex].add(board[i][j])) {
+					return false;
+				}
+			}
+		}
+		return true;
 	}
 }
