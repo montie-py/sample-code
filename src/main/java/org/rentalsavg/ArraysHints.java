@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ArraysHints {
+
 	public void rotateArray(int[] arr, int shift) {
 		shift %= arr.length;
 		reverseArray(arr, 0, arr.length-1);
