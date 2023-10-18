@@ -1,6 +1,7 @@
 package org.rentalsavg;
 
 import java.util.Arrays;
+import java.util.Set;
 
 public class StringHints {
 
@@ -53,5 +54,36 @@ public class StringHints {
         }
 
         return new String(charArray);
+    }
+
+    public int atoi(String s) {
+        int index = 0;
+        while (index < s.length() && s.charAt(index) == ' ') {
+            ++index;
+        }
+        boolean positive = true;
+        int result = 0;
+
+        if (index < s.length() && Set.of('+', '-').contains(s.charAt(index))) {
+            if (s.charAt(index) == '-') {
+                positive = false;
+            }
+            ++index;
+        }
+
+        while (index < s.length() && Character.isDigit(s.charAt(index))) {
+            int digit = Character.getNumericValue(s.charAt(index));
+            if (result > Integer.MAX_VALUE / 10 || (result == Integer.MAX_VALUE / 10 && digit > 7)) {
+                return positive ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            }
+            result = result * 10 + digit;
+            ++index;
+        }
+
+        if (!positive) {
+            result = -result;
+        }
+
+        return result;
     }
 }

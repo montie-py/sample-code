@@ -33,4 +33,23 @@ class StringHintsTest {
                 () -> assertFalse(stringHints.isPalindrome("race a car"))
         );
     }
+
+    @Test
+    @DisplayName("Test whether atoi() function works")
+    public void atoi() {
+        assertAll(
+                () -> assertEquals(34, stringHints.atoi("0034")),
+                () -> assertEquals(2147483647, stringHints.atoi("200000000000000000000000")),
+                () -> assertEquals(-2147483648, stringHints.atoi("-200000000000000000000000")),
+                () -> assertEquals(-2147483648, stringHints.atoi(" -200000000000000000000000")),
+                () -> assertEquals(-20, stringHints.atoi(" -20")),
+                () -> assertEquals(20, stringHints.atoi(" 20")),
+                () -> assertEquals(-20, stringHints.atoi(" -0020")),
+                () -> assertEquals(20, stringHints.atoi(" 0020")),
+                () -> assertEquals(0, stringHints.atoi("")),
+                () -> assertEquals(0, stringHints.atoi(" ")),
+                () -> assertEquals(0, stringHints.atoi("  ")),
+                () -> assertEquals(2, stringHints.atoi("  2"))
+        );
+    }
 }
